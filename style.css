@@ -1,0 +1,127 @@
+body{
+    background-color: #f5f5f5;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+    margin: 5px 2px;
+    font-weight: 200;
+}
+.screen{
+    background-color: #eee6d8;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10% 10% 0 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: #212529;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: right;
+}
+.screen-content
+{
+    
+    text-align: right;
+}
+
+.container{
+
+    background-color:  #E5E7E6;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 5% auto;
+    padding: 20px;
+}
+.calculator{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    width: 75%;
+   
+}
+.numbers div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.numbers div:hover{
+    background-color: #eee6d8;
+    color: #93441A;
+    border: 1px solid #93441A;
+    transition: 0.5s;
+}
+#backspace
+{
+    background-color: darkorange;
+    color: #eee6d8;
+}
+#backspace:hover{
+    background-color: #eee6d8;
+    color: darkorange;
+    border: 1px solid darkorange;
+    transition: 0.1s;
+}
+.operators{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 25%;
+    border: 1px solid #BAAB3A;
+
+}
+.operators div{
+    width: 50px;
+    color: #eee6d8;
+    background-color: #93441A;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.operators div:hover{
+    background-color:#eee6d8;
+    color: #93441A;
+    border: 1px solid #93441A;
+    transition: 0.5s;
+}
